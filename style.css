@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0ab9ef;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.technologies, .database-section, .output, .summary {
+    margin: 20px 0;
+}
+
+.technologies button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #000000;
+    background-color: #1e90ff;
+    border-radius: 5px;
+}
+
+.database-section input[type="radio"] {
+    margin-right: 5px;
+}
+
+.module-list {
+    margin-top: 20px;
+    text-align: left;
+    width: 300px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.selected {
+    background-color: #1e90ff;
+}
+
+.output, .summary {
+    border: 1px solid #000000;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    background-color: #0cafeb;
+}

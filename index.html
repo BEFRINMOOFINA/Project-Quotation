@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Quotation Report Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Technologies</h1>
+<div class="technologies">
+    <button onclick="showModules('Python')">Python</button>
+    <button onclick="showModules('React.js')">React.js</button>
+    <button onclick="showModules('PHP')">PHP</button>
+    <button onclick="showModules('JavaScript')">JavaScript</button>
+</div>
+
+<h2>Project Quotation</h2>
+<div class="module-list" id="moduleList">
+    <!-- Module information will populate here -->
+</div>
+
+<div class="database-section">
+    <h3>Database</h3>
+    <input type="radio" id="oracle" name="database" value="Oracle">
+    <label for="node">Oracle</label>
+    <input type="radio" id="mysql" name="database" value="MySQL">
+    <label for="mysql">MySQL</label>
+    <input type="radio" id="mongodb" name="database" value="MongoDB">
+    <label for="mongodb">MongoDB</label>
+    <input type="radio" id="node" name="database" value="Node.js">
+    <label for="oracle">Node.js</label>
+</div>
+
+<div class="output">
+    <h2>Total</h2>
+    <p>Duration: <span id="totalDuration">0 hrs</span></p>
+    <p>Amount: ₹ <span id="totalAmount">0</span></p>
+</div>
+
+<div class="summary">
+    <h3>Summary</h3>
+    <p>Technology: <span id="selectedTech">None</span></p>
+    <p>Database: <span id="selectedDatabase">None</span></p>
+    <p>Total Duration: <span id="summaryDuration">0 hrs</span></p>
+    <p>Total Amount: ₹ <span id="summaryAmount">0</span></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
